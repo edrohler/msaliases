@@ -1,0 +1,1 @@
+copy aliases.cmd %USERPROFILE%
