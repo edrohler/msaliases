@@ -2,6 +2,7 @@
 DOSKEY alias=code %USERPROFILE%\aliases.cmd
 DOSKEY ls=dir
 DOSKEY home=cd /d %USERPROFILE%
+DOSKEY ~=cd /d %USERPROFILE%
 DOSKEY repos=cd /d "D:\dev\repos"
 DOSKEY samples=cd /d "D:\dev\repos\samples"
 DOSKEY templates=cd /d "D:\dev\repos\templates"
@@ -21,7 +22,7 @@ DOSKEY demos-ajax=cd /d "D:\dev\repos\support\ui-for-aspnet-ajax\demos"
 DOSKEY demos-core=cd /d "D:\dev\repos\support\ui-for-aspnet-core\demos"
 DOSKEY demos-mvc=cd /d "D:\dev\repos\support\ui-for-aspnet-mvc\demos"
 DOSKEY demos-rprt=cd /d "D:\dev\repos\support\reporting\demos"
-DOSKEY demos-rport-srvr=cd /d "D:\dev\repos\support\report-server\demos"
+DOSKEY demos-rprt-srvr=cd /d "D:\dev\repos\support\report-server\demos"
 DOSKEY docs=cd /d "D:\dev\repos\docs"
 DOSKEY docs-seed=cd /d "D:\dev\repos\docs\docs-seed"
 DOSKEY docs-ajax=cd /d "D:\dev\repos\docs\ajax-docs"
