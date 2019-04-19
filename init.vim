@@ -60,9 +60,10 @@ endif
 Plug 'mklabs/split-term.vim'
 
 " Languages
-Plug 'pangloss/vim-javascript'
-Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
-Plug 'vim-ruby/vim-ruby'
+Plug 'pangloss/vim-javascript' " javascript
+Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' } " Go
+Plug 'vim-ruby/vim-ruby' " Ruby
+Plug 'oranget/vim-csharp'
 Plug 'OmniSharp/omnisharp-vim' " C#
 
 " Frameworks
@@ -105,9 +106,21 @@ let g:syntastic_check_on_wq = 0
 let g:python_host_prog = 'C:\Python27\python'
 let g:python3_host_prog = 'C:\Python37\python'
 let g:deoplete#enable_at_startup = 1
+let g:OmniSharp_server_type = 'roslyn' 
+let g:OmniSharp_prefer_global_sln = 1  
+let g:OmniSharp_timeout = 10      
 
 let mapleder = ','
 
+" Ctrl + f open file directory
 map <C-f> :NERDTreeToggle<CR>
 nnoremap <C-p> :<C-u>FZF<CR>
 inoremap jk <Esc>
+
+" Splitting
+" nnoremap <C-J> <C-W><C-J> "Split down
+" nnoremap <C-K> <C-W><C-K> "Split up
+" nnoremap <C-L> <C-W><C-L> "Split right
+" nnoremap <C-H> <C-W><C-H> "Split left
+set splitbelow
+set splitright
