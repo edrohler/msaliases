@@ -1,3 +1,5 @@
+" set rtp+=~/.fzf
+
 " disable compatability
 set nocompatible
 
@@ -37,9 +39,11 @@ autocmd BufRead,BufNewFile *.md set spell spelllang=en_us
 call plug#begin('~/AppData/Local/nvim/plugged')
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'tpope/vim-unimpaired'
-Plug 'junegunn/fzf.vim'
+" Plug 'junegunn/fzf.vim', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'tpope/vim-scriptease', {'type': 'opt'}
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
+
+Plug 'oranget/vim-csharp'
 
 " Git integration
 Plug 'tpope/vim-fugitive'
@@ -63,7 +67,6 @@ Plug 'mklabs/split-term.vim'
 Plug 'pangloss/vim-javascript' " javascript
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' } " Go
 Plug 'vim-ruby/vim-ruby' " Ruby
-Plug 'oranget/vim-csharp'
 Plug 'OmniSharp/omnisharp-vim' " C#
 
 " Frameworks
@@ -103,9 +106,14 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:deoplete#enable_at_startup = 1
+
+" Python Env
 let g:python_host_prog = 'C:\Python27\python'
 let g:python3_host_prog = 'C:\Python37\python'
-let g:deoplete#enable_at_startup = 1
+
+" Roslyn Compiler
+let g:OmniSharp_selector_ui = 'ctrlp'
 let g:OmniSharp_server_type = 'roslyn' 
 let g:OmniSharp_prefer_global_sln = 1  
 let g:OmniSharp_timeout = 10      
