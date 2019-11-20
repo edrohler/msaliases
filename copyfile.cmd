@@ -1,6 +1,6 @@
 set startdir = %cd%
 set aliasdir = %USERPROFILE%
-set nvmdir = %aliasdir% + \AppData\Local\nvim\
+set localappdata = %LocalAppData%
 
 echo mklink aliases.cmd %stardir%
-echo mklink init.vim %startdir%
+echo mklink profiles.json C:\Users\erohler\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
