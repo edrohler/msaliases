@@ -35,4 +35,4 @@ docs-fiddler=cd /d "d:\dev\repos\docs\fiddler-docs"
 docs-fiddler-everywhere=cd /d "d:\dev\repos\docs\fiddler-everywhere-docs"
 docs-rprt=cd /d "D:\dev\repos\docs\reporting-docs"
 docs-rprt-srvr=cd /d "D:\dev\repos\docs\report-server-docs"
-fiddler-everywhere-dev=cd /d "D:\dev\repos\sources\fiddler\Fiddler\WebUi" && code Fiddler.code-workspace
+fiddler-everywhere-dev=cd /d "D:\dev\repos\sources\fiddler\Fiddler\WebUi" && code Fiddler.code-workspace && cd /d "D:\dev\repos\sources\fiddler\Fiddler\WebUi\Fiddler.WebUi" && dotnet run bin/Release/netcoreapp3.1/Fiddler.WebUi.dll -c Release
