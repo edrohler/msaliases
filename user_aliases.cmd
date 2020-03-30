@@ -3,9 +3,9 @@
 ;= %SystemRoot%\system32\doskey /listsize=1000 /macrofile=%0%
 ;= rem In batch mode, jump to the end of the file
 ;= goto:eof
-;= Add aliases below here
+
+;= rem general
 e.=explorer .
-gl=git log --oneline --all --graph --decorate  $*
 ls=ls --show-control-chars -F --color $*
 pwd=cd
 clear=cls
@@ -47,3 +47,26 @@ msa=cd /d "d:\dev\repos\sources\msaliases"
 pb=cd /d "d:\dev\repos\sources\ericrohler_static"
 fed=cd /d "D:\dev\repos\sources\fiddler\Fiddler\WebUi" && code Fiddler.code-workspace && cd /d "D:\dev\repos\sources\fiddler\Fiddler\WebUi\Fiddler.WebUi" && dotnet run bin/Release/netcoreapp3.1/Fiddler.WebUi.dll -c Release
 tdd=cd /d "d:\dev\repos\sources\team-dashboard"
+
+;= rem git shortcuts
+gs=git status
+ga=git add
+gaa=git add -A
+gc=git commit --message $*
+gca=git commit --all --message $*
+gcam=git commit --amend --message $*
+gcamne=git commit --amend --no-edit
+gb=git branch
+gbd=git branch -d $*
+gco=git checkout $*
+gcob=git checkout -b $*
+gl=git log
+gladog=git log --graph --oneline --all --decorate
+gd=git diff
+gds=git diff --staged
+gdt=git difftool
+gdts=git difftool --staged
+gps=git push
+gpl=git pull
+gf=git fetch
+gfp=git fetch --prune

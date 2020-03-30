@@ -67,7 +67,7 @@
 			<value name="SetDefaultTerminalStartup" type="hex" data="01"/>
 			<value name="DefaultTerminalNoInjects" type="hex" data="00"/>
 			<value name="DefaultTerminalConfirm" type="hex" data="01"/>
-			<value name="DefaultTerminalApps" type="string" data="explorer.exe|devenv.exe|code.exe|powershell.exe|cmd.exe|bash.exe|wsl.exe"/>
+			<value name="DefaultTerminalApps" type="string" data="explorer.exe|devenv.exe|powershell.exe|cmd.exe|bash.exe|wsl.exe"/>
 			<value name="ProcessAnsi" type="hex" data="01"/>
 			<value name="UseClink" type="hex" data="01"/>
 			<value name="StartType" type="hex" data="02"/>
