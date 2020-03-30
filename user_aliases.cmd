@@ -33,7 +33,7 @@ tix-rprt=cd /d "D:\dev\repos\support\reporting"
 tix-rprt-srvr=cd /d "D:\dev\repos\support\report-server"
 
 ;= rem docs editing
-docs-ajax=cd /d "D:\dev\repos\docs\ajax-docs"
+docs-ajax=cd /d "D:\dev\repos\docs\devtools\ajax-docs"
 docs-blazor=cd /d "d:\dev\repos\docs\blazor-docs"
 docs-seed=cd /d "D:\dev\repos\docs\docs-seed"
 docs-fiddler-core=cd /d "d:\dev\repos\docs\fiddler-core-docs"
