@@ -110,5 +110,5 @@
         "editor.wordWrap": "wordWrapColumn",
         "editor.wordWrapColumn": 64,
         "editor.quickSuggestions": false
-        }       
+    }
 }
