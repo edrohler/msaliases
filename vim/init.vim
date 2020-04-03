@@ -49,8 +49,8 @@ let python_highlight_all = 1
 autocmd FileType python set sw=4
 autocmd FileType python set ts=4
 autocmd FileType python set sts=4
-let g:python_host_prog = 'C:\Python27\python'
-let g:python3_host_prog = 'C:\Python37\python'
+let g:python_host_prog = 'C:\Python27amd64'
+let g:python3_host_prog = 'C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64'
 
 " Spell Checking
 autocmd BufRead,BufNewFile *.md set spell spelllang=en_us
@@ -78,12 +78,10 @@ call plug#begin('~/AppData/Local/nvim/plugged')
     " Code Completion
     if has('nvim')
         Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-        Plug 'zchee/deoplete-jedi'
     else
         Plug 'Shougo/deoplete.nvim'
         Plug 'roxma/nvim-yarp'
         Plug 'roxma/vim-hug-neovim-rpc'
-        Plug 'zchee/deoplete-jedi' 
     endif
 
     Plug 'mattn/emmet-vim' " HTML editing
