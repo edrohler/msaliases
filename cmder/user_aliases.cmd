@@ -11,10 +11,13 @@ pwd=cd
 clear=cls
 history=cat -n "%CMDER_ROOT%\config\.history"
 unalias=alias /d $1
-vi=vim $*
+vi=nvim $*
+vim=nvim $*
 cmderr=cd /d "%CMDER_ROOT%"
 home=cd /d %USERPROFILE%
 ~=cd /d %USERPROFILE%
+
+;= rem apps
 
 ;= rem top-level repos
 repos=cd /d "D:\dev\repos"
