@@ -3,10 +3,12 @@
     "workbench.colorTheme": "Material Theme Darker",
     "workbench.activityBar.visible": true,
     "workbench.startupEditor": "none",
-    "terminal.integrated.shell.windows": "%USERPROFILE%\\cmder\\cmder.exe",
+    "terminal.integrated.shell.windows": "${env:USERPROFILE}\\cmder\\Cmder.exe",
     "terminal.explorerKind": "external",
-    "terminal.external.windowsExec": "%USERPROFILE%\\cmder\\cmder.exe",
+    "terminal.external.windowsExec": "${env:USERPROFILE}\\cmder\\Cmder.exe",
+    "terminal.external.linuxExec": "tilix",    
     "team.showWelcomeMessage": false,
+    "sqltools.useNodeRuntime": true,    
     "mssql.connections": [
         {
             "server": "(localdb)\\mssqllocaldb",
