@@ -6,9 +6,9 @@
     "terminal.integrated.shell.windows": "${env:USERPROFILE}\\cmder\\Cmder.exe",
     "terminal.explorerKind": "external",
     "terminal.external.windowsExec": "${env:USERPROFILE}\\cmder\\Cmder.exe",
-    "terminal.external.linuxExec": "tilix",    
+    "terminal.external.linuxExec": "tilix",
     "team.showWelcomeMessage": false,
-    "sqltools.useNodeRuntime": true,    
+    "sqltools.useNodeRuntime": true,
     "mssql.connections": [
         {
             "server": "(localdb)\\mssqllocaldb",

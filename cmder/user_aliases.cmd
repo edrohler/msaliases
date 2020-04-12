@@ -6,6 +6,7 @@
 
 ;= rem general
 e.=explorer .
+..=cd ..
 ls=ls --show-control-chars -F --color $*
 pwd=cd
 clear=cls
