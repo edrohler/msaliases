@@ -25,6 +25,7 @@
     "nativescript.analytics.enabled": true,
     "cSpell.userWords": [
         "AUTORESPONDER",
+        "Barcodes",
         "Crosstab",
         "Etag",
         "GIFs",
@@ -95,6 +96,7 @@
         "tilix",
         "tmux",
         "toggleable",
+        "trbp",
         "tslib",
         "ungrouped",
         "updated",
@@ -119,5 +121,6 @@
     },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
-    }
+    },
+    "telemetry.enableTelemetry": false
 }
