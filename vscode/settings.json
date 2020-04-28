@@ -122,5 +122,8 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "telemetry.enableTelemetry": false
+    "telemetry.enableTelemetry": false,
+    "[sql]": {
+        "editor.defaultFormatter": "ms-mssql.mssql"
+    }
 }
