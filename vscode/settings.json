@@ -3,7 +3,7 @@
     "workbench.colorTheme": "Material Theme Darker",
     "workbench.activityBar.visible": true,
     "workbench.startupEditor": "none",
-    "terminal.integrated.shell.windows": "${env:USERPROFILE}\\cmder\\Cmder.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
     "terminal.explorerKind": "external",
     "terminal.external.windowsExec": "${env:USERPROFILE}\\cmder\\Cmder.exe",
     "terminal.external.linuxExec": "tilix",
