@@ -49,8 +49,7 @@ docs-rprt-srvr=cd /d "D:\dev\repos\docs\report-server-docs"
 ;= rem dev shortcuts
 msa=cd /d "d:\dev\repos\sources\msaliases"
 pb=cd /d "d:\dev\repos\sources\ericrohler_static"
-fed=cd /d "D:\dev\repos\sources\fiddler\Fiddler\WebUi" && code Fiddler.code-workspace && cd /d "D:\dev\repos\sources\fiddler\Fiddler\WebUi\Fiddler.WebUi" && dotnet run bin/Release/netcoreapp3.1/Fiddler.WebUi.dll -c Release
-tdd=cd /d "d:\dev\repos\sources\team-dashboard"
+tdb=cd /d "d:\dev\repos\sources\team-dashboard"
 
 ;= rem git shortcuts
 gs=git status
