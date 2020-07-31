@@ -22,10 +22,11 @@ home=cd /d %USERPROFILE%
 
 ;= rem top-level repos
 repos=cd /d "D:\dev\repos"
-blogging=cd /d "d:\dev\repos\blogging\blogging"
+blogging=cd /d "d:\dev\repos\blogging"
 docs=cd /d "D:\dev\repos\docs"
 sources=cd /d "d:\dev\repos\sources"
 support=cd /d "d:\dev\repos\support"
+workspaces=cd /d "d:\dev\workspaces"
 
 ;= rem support ticket repos
 tix-ajax=cd /d "D:\dev\repos\support\ui-for-aspnet-ajax"
@@ -49,7 +50,6 @@ docs-rprt-srvr=cd /d "D:\dev\repos\docs\report-server-docs"
 ;= rem dev shortcuts
 msa=cd /d "d:\dev\repos\sources\msaliases"
 pb=cd /d "d:\dev\repos\sources\ericrohler_static"
-tdb=cd /d "d:\dev\repos\sources\team-dashboard"
 
 ;= rem git shortcuts
 gs=git status
