@@ -50,6 +50,7 @@ docs-rprt-srvr=cd /d "D:\dev\repos\docs\report-server-docs"
 ;= rem dev shortcuts
 msa=cd /d "d:\dev\repos\sources\msaliases"
 pb=cd /d "d:\dev\repos\sources\ericrohler_static"
+stpc=cd /d "d:\dev\repos\sources\SupportTicketProjectCreator"
 
 ;= rem git shortcuts
 gs=git status
