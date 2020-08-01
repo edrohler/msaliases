@@ -9,6 +9,7 @@
     "terminal.external.linuxExec": "tilix",
     "team.showWelcomeMessage": false,
     "sqltools.useNodeRuntime": true,
+    "json.maxItemsComputed": 99999,
     "mssql.connections": [
         {
             "server": "(localdb)\\mssqllocaldb",
