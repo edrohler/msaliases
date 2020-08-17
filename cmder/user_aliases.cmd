@@ -19,6 +19,7 @@ home=cd /d %USERPROFILE%
 ~=cd /d %USERPROFILE%
 
 ;= rem apps
+notes=cd /d "D:\Nextcloud\Notes"
 
 ;= rem top-level repos
 repos=cd /d "D:\dev\repos"
