@@ -37,6 +37,7 @@ tix-fiddler=cd /d "D:\dev\repos\support\fiddler"
 tix-mvc=cd /d "D:\dev\repos\support\ui-for-aspnet-mvc"
 tix-rprt=cd /d "D:\dev\repos\support\reporting"
 tix-rprt-srvr=cd /d "D:\dev\repos\support\report-server"
+tix-xamarin=cd /d "D:\dev\repos\support\ui-for-xamarin"
 
 ;= rem docs editing
 docs-ajax=cd /d "D:\dev\repos\docs\ajax-docs"

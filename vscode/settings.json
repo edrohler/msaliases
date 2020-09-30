@@ -70,6 +70,8 @@
         "codelyzer",
         "composer",
         "dateinputs",
+        "demopass",
+        "demouser",
         "devkit",
         "dropdownlist",
         "dropdowns",
