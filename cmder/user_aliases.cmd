@@ -23,7 +23,8 @@ notes=cd /d "D:\Nextcloud\Notes"
 
 ;= rem top-level repos
 repos=cd /d "D:\dev\repos"
-blogging=cd /d "d:\dev\repos\blogging"
+blog=cd /d "d:\dev\repos\blogging"
+blog-src=cd /d "d:\dev\repos\blogging-source"
 docs=cd /d "D:\dev\repos\docs"
 sources=cd /d "d:\dev\repos\sources"
 support=cd /d "d:\dev\repos\support"
