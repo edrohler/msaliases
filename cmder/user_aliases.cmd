@@ -23,8 +23,7 @@ notes=cd /d "D:\Nextcloud\Notes"
 
 ;= rem top-level repos
 repos=cd /d "D:\dev\repos"
-blog=cd /d "d:\dev\repos\blogging"
-blog-src=cd /d "d:\dev\repos\blogging-source"
+blog=cd /d "d:\dev\repos\blogs"
 docs=cd /d "D:\dev\repos\docs"
 sources=cd /d "d:\dev\repos\sources"
 support=cd /d "d:\dev\repos\support"
@@ -51,8 +50,10 @@ docs-rprt=cd /d "D:\dev\repos\docs\reporting-docs"
 docs-rprt-srvr=cd /d "D:\dev\repos\docs\report-server-docs"
 
 ;= rem dev shortcuts
+prgs=cd /d "d:\dev\repos\blogs\prgs"
+prgsb-src=cd /d "d:\dev\repos\blogs\prgs-source"
 msa=cd /d "d:\dev\repos\sources\msaliases"
-pb=cd /d "d:\dev\repos\sources\ericrohler_static"
+pb=cd /d "d:\dev\repos\blogs\ericrohler_static"
 stpc=cd /d "d:\dev\repos\sources\SupportTicketProjectCreator"
 
 ;= rem git shortcuts
