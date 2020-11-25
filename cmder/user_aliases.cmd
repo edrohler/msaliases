@@ -48,7 +48,7 @@ docs-rprt=cd /d "D:\dev\repos\docs\reporting-docs"
 docs-rprt-srvr=cd /d "D:\dev\repos\docs\report-server-docs"
 
 ;= rem dev shortcuts
-prgs=cd /d "d:\dev\repos\blogs\prgs"
+prgsb=cd /d "d:\dev\repos\blogs\prgsb"
 prgsb-src=cd /d "D:\dev\repos\blogs\prgsb-source"
 msa=cd /d "d:\dev\repos\sources\msaliases"
 pb=cd /d "d:\dev\repos\blogs\ericrohler_static"
