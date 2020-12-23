@@ -63,6 +63,7 @@ gca=git commit --all --message $*
 gcam=git commit --amend --message $*
 gcamne=git commit --amend --no-edit
 gb=git branch
+gbl= git branch -l
 gbd=git branch -d $*
 gco=git checkout $*
 gcob=git checkout -b $*
