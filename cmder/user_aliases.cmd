@@ -36,6 +36,8 @@ tix-mvc=cd /d "D:\dev\repos\support\ui-for-aspnet-mvc"
 tix-rprt=cd /d "D:\dev\repos\support\reporting"
 tix-rprt-srvr=cd /d "D:\dev\repos\support\report-server"
 tix-xamarin=cd /d "D:\dev\repos\support\ui-for-xamarin"
+tix-wpf=cd /d "D:\dev\repos\support\ui-for-wpf"
+tix-jquery=cd /d "D:\dev\repos\support\ui-for-jquery"
 
 ;= rem docs editing
 docs-ajax=cd /d "D:\dev\repos\docs\ajax-docs"
