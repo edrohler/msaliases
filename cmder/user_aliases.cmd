@@ -55,6 +55,8 @@ prgsb-src=cd /d "D:\dev\repos\blogs\prgsb-source"
 msa=cd /d "d:\dev\repos\sources\msaliases"
 pb=cd /d "d:\dev\repos\blogs\ericrohler_static"
 stpc=cd /d "d:\dev\repos\sources\SupportTicketProjectCreator"
+fp-ajax=cd /d "D:\dev\repos\sources\FinalProject"
+fp-blazor=cd /d "D:\dev\repos\sources\FinalProject-Blazor"
 
 ;= rem git shortcuts
 gs=git status
