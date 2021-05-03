@@ -25,13 +25,14 @@
         "ms-vscode.wordcount",
         "msjsdiag.debugger-for-chrome",
         "msjsdiag.debugger-for-edge",
+        "NativeScript.nativescript",
         "nrwl.angular-console",
         "PKief.material-icon-theme",
         "ritwickdey.LiveServer",
+        "sleistner.vscode-fileutils",
         "streetsidesoftware.code-spell-checker",
-        "Telerik.nativescript",
+        "TelerikInc.aspnetcoretemplatewizard",
         "TelerikInc.blazortemplatewizard",
-        "Tyriar.lorem-ipsum",
-        "yzhang.markdown-all-in-one"
+        "Tyriar.lorem-ipsum"
     ]
 }
